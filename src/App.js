@@ -1,6 +1,8 @@
+import './styles/estilosGlobais.scss'
 
-import paginainicial from "./paginas/paginainicial";
-export default function App() {
-  return  <paginainicial/>
-  ;
-}
+import PaginaInicial from "./paginas/PaginaInicial";
+
+
+export default function app() {
+  return <PaginaInicial/>
+} 
